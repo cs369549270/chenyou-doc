@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>8. 底部栏显示倒计时</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/8__底部栏显示倒计时_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/8__底部栏显示倒计时_1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u434" class="ax_default shape">
+        <div id="u434_div" class=""></div>
+        <div id="u434_text" class="text ">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u435" class="ax_default shape">
+        <div id="u435_div" class=""></div>
+        <div id="u435_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u436" class="ax_default shape">
+        <img id="u436_img" class="img " src="images/8__底部栏显示倒计时/u147.svg"/>
+        <div id="u436_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u437" class="ax_default paragraph">
+        <div id="u437_div" class=""></div>
+        <div id="u437_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'华文琥珀', sans-serif;font-weight:400;">05:58</span></p><p style="font-size:12px;"><span style="font-family:'黑体', sans-serif;font-weight:400;">后打卡</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u438" class="ax_default shape">
+        <img id="u438_img" class="img " src="images/8__底部栏显示倒计时/u149.svg"/>
+        <div id="u438_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u439" class="ax_default paragraph">
+        <div id="u439_div" class=""></div>
+        <div id="u439_text" class="text ">
+          <p><span>红包直接到账微信</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u440" class="ax_default paragraph">
+        <div id="u440_div" class=""></div>
+        <div id="u440_text" class="text ">
+          <p><span>每天最高可领 20 元！</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u441" class="ax_default paragraph">
+        <div id="u441_div" class=""></div>
+        <div id="u441_text" class="text ">
+          <p><span>1. 服务端新增底部栏信息接口，返回打卡任务的status和count，以及是否显示浮标 isBuoy</span></p><p><span>2. 若status= 2 ，则底部栏【提额红包】入口需要根据count显示倒计时，倒计时结束后，变回原本的非倒计时样式</span></p><p><span>3. 若 isBuoy = 1 ，则显示浮标</span></p><p><span>4. 调用这个接口判断的时机：</span></p><ul><li style=""><span>打开app时</span></li><li style=""><span>切换底部 5 个tab时</span></li></ul>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
